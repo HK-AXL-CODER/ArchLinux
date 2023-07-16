@@ -1,0 +1,501 @@
+{
+  "workbench.preferredDarkColorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.commandPalette.experimental.suggestCommands": true,
+  "editor.tokenColorCustomizations": {
+    "[Tokyo Night]": {
+      // or "[Tokyo Night Storm]"
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "meta.var.expr storage.type",
+            "keyword.control.flow",
+            "keyword.control.return",
+            "meta.directive.vue punctuation.separator.key-value.html",
+            "meta.directive.vue entity.other.attribute-name.html",
+            "tag.decorator.js entity.name.tag.js",
+            "tag.decorator.js punctuation.definition.tag.js",
+            "storage.modifier"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "foreground": "#959cbd",
+      "panelTitle.activeBorder": "#3d59a1",
+      "panelTitle.activeForeground": "#bdc7f0",
+      "panelTitle.inactiveForeground": "#959cbd",
+      "tab.activeForeground": "#bdc7f0",
+      "tab.inactiveForeground": "#959cbd",
+      "breadcrumb.foreground": "#959cbd",
+      "breadcrumb.focusForeground": "#bdc7f0",
+      "breadcrumb.activeSelectionForeground": "#bdc7f0",
+      "statusBar.foreground": "#bdc7f0",
+      "list.focusForeground": "#bdc7f0",
+      "list.hoverForeground": "#bdc7f0",
+      "list.activeSelectionForeground": "#bdc7f0",
+      "list.inactiveSelectionForeground": "#bdc7f0",
+      "list.inactiveSelectionBackground": "#202330",
+      "sideBar.foreground": "#959cbd",
+      "dropdown.foreground": "#959cbd",
+      "menu.foreground": "#bdc7f0",
+      "menubar.selectionForeground": "#bdc7f0",
+      "input.foreground": "#959cbd",
+      "input.placeholderForeground": "#959cbd",
+      "activityBar.foreground": "#bdc7f0",
+      "activityBar.inactiveForeground": "#787c99",
+      "gitDecoration.ignoredResourceForeground": "#696d87",
+      // or "[Tokyo Night Storm]"
+      "window.activeBorder": "#ff0000",
+      "window.inactiveBorder": "#0000ff", // or "[Tokyo Night Storm]"
+      "editorCodeLens.foreground": "#7982a9", // Preferred hex color
+      "focusBorder": "#535353",
+      "activityBar.background": "#121315",
+      "activityBarBadge.background": "#24BFA5",
+      "activityBarBadge.foreground": "#f0f0f0",
+      "activityBar.activeBorder": "#24BFA5",
+      "activityBar.activeFocusBorder": "#24BFA5",
+      "diffEditor.insertedTextBackground": "#66f0c213",
+      "dropdown.background": "#202124",
+      "dropdown.border": "#00BCD4",
+      "editor.background": "#17181a",
+      "editor.foreground": "#e2e2e2ec",
+      "editor.selectionBackground": "#343F56",
+      "editor.wordHighlightBackground": "#343F56",
+      "editorCursor.foreground": "#24BFA5",
+      "editorGroupHeader.tabsBackground": "#17181a",
+      "editorGutter.addedBackground": "#24BFA5",
+      "editorGutter.modifiedBackground": "#938464",
+      "editorIndentGuide.background": "#97a7c826",
+      "editorLineNumber.activeForeground": "#ffffff9a",
+      "editorLineNumber.foreground": "#94949460",
+      "editorWhitespace.foreground": "#3b3a32",
+      "editor.selectionHighlightBackground": "#2929293b",
+      "editor.lineHighlightBackground": "#343f5667",
+      "editor.lineHighlightBorder": "#343f5667",
+      "breadcrumb.background": "#121315",
+      "breadcrumbPicker.background": "#1b1b1d",
+      "gitDecoration.modifiedResourceForeground": "#E3C18A",
+      "gitDecoration.untrackedResourceForeground": "#70CA8E",
+      "input.background": "#202124",
+      "input.border": "#dfdfdf44",
+      "inputOption.activeForeground": "#f0f0f0",
+      "inputOption.activeBorder": "#24BFA5",
+      "list.activeSelectionBackground": "#e6e6e609",
+      "list.focusBackground": "#1a1a17",
+      "list.hoverBackground": "#1E1F21",
+      "list.focusOutline": "#c0c0c06e",
+      "list.highlightForeground": "#24BFA5",
+      "list.deemphasizedForeground": "#24BFA5",
+      "panel.background": "#121315",
+      "panel.border": "#121315",
+      "panel.dropBorder": "#24BFA5",
+      "panelInput.border": "#24BFA5",
+      "scrollbarSlider.background": "#252526",
+      "scrollbarSlider.hoverBackground": "#2b2b2b",
+      "scrollbarSlider.activeBackground": "#ffffff50",
+      "sideBar.background": "#121315",
+      "sideBarSectionHeader.background": "#121315",
+      "sideBarSectionHeader.foreground": "#24BFA5",
+      "sideBarSectionHeader.border": "#121315",
+      "sideBarTitle.foreground": "#24BFA5",
+      "statusBar.background": "#121315",
+      "statusBar.border": "#121315",
+      "statusBar.noFolderBackground": "#121315",
+      "statusBar.noFolderBorder": "#121315",
+      "statusBarItem.activeBackground": "#24BFA5",
+      "statusBarItem.hoverBackground": "#64f0d82d",
+      "settings.headerForeground": "#24BFA5",
+      "settings.modifiedItemIndicator": "#24BFA5",
+      "progressBar.background": "#00BCD4",
+      "notificationLink.foreground": "#f8f8f8",
+      "editor.findMatchBorder": "#00BCD4",
+      "settings.dropdownBorder": "#24BFA5",
+      "pickerGroup.foreground": "#24BFA5",
+      "tab.activeBackground": "#24bfa509",
+      "tab.activeBorder": "#24BFA5",
+      "tab.inactiveBackground": "#252629",
+      "tab.unfocusedInactiveForeground": "#24BFA5",
+      "terminal.background": "#121315",
+      "terminal.border": "#121315",
+      "titleBar.activeBackground": "#121315",
+      "titleBar.activeForeground": "#f0f0f0",
+      "titleBar.inactiveBackground": "#121315",
+      "titleBar.inactiveForeground": "#f0f0f0",
+      "editorSuggestWidget.border": "#585858",
+      "editorSuggestWidget.foreground": "#cecece",
+      "editorSuggestWidget.background": "#212224",
+      "editorSuggestWidget.highlightForeground": "#24BFA5",
+      "editorSuggestWidget.selectedBackground": "#1c423cc5",
+      "editorHoverWidget.foreground": "#cecece",
+      "editorHoverWidget.background": "#17181a",
+      "editorWidget.background": "#17181a",
+      "button.background": "#24bfa5a8",
+      "button.foreground": "#f0f0f0",
+      "button.hoverBackground": "#0db498d3",
+      "checkbox.foreground": "#24BFA5",
+      "checkbox.border": "#24BFA5",
+      "textLink.foreground": "#00BCD4",
+      "menu.selectionForeground": "#24BFA5"
+    }
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": true,
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 20,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.editor.wrapTabs": true,
+  "workbench.layoutControl.enabled": true,
+  "workbench.list.horizontalScrolling": true,
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  "workbench.view.alwaysShowHeaderActions": true,
+
+  // ##################### workbench #####################################
+
+  // ##################### Window #####################################
+
+  "window.zoomLevel": -1,
+  "window.autoDetectColorScheme": true,
+  "window.titleBarStyle": "custom",
+  "window.dialogStyle": "custom",
+  "window.customMenuBarAltFocus": true,
+  "window.commandCenter": true,
+  "window.newWindowDimensions": "maximized",
+  "window.restoreFullscreen": true,
+  "window.restoreWindows": "all",
+  "window.title": "${rootName}",
+
+  // ##################### Window #####################################
+
+  // ##################### Editor #####################################
+
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 22,
+  "editor.scrollbar.verticalScrollbarSize": 1,
+  "editor.minimap.side": "left",
+  "editor.fontFamily": "Maple Mono",
+  // "editor.fontFamily": "\"Comic Code\", \"JetBrains Mono\", \"SF Mono\", \"IBMPlexMono\", \"Fira Code\", \"Dank Mono\", monospace",
+  "editor.inlayHints.enabled": "on",
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.foldingImportsByDefault": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.showSlider": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderControlCharacters": true,
+  "editor.suggest.showClasses": true,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "all",
+  "editor.scrollBeyondLastLine": false,
+  "editor.showFoldingControls": "always",
+  "editor.snippetSuggestions": "top",
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.preview": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.tabSize": 4,
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.wordWrap": "on",
+  "editor.matchBrackets": "always",
+  "editor.fontLigatures": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "other": "on",
+    "strings": "on"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true, // enable for all themes
+    "[Default Dark+]": {
+      "enabled": true // enable for a particular theme
+    },
+    "rules": {
+      "type": "#26A69A",
+      "namespace": "#00897B",
+      "function": "#00BCD4",
+      "variable": "#42A5F5",
+      "number": "#90A4AE",
+      "string": {
+        "foreground": "#90A4AE",
+        "italic": true
+      }
+    },
+    "comment": {
+      "foreground": "#546E7A",
+      "fontStyle": "italic"
+    },
+    "variable.readonly.defaultLibrary": "#A89F9B",
+    "macro": "#7E57C2",
+    "keyword": "#7986CB",
+    "operator": "#9575CD",
+    "type.modification": "#00897B",
+    "punctuation": "#A1887F"
+  },
+  "editor.autoSurround": "quotes",
+  "editor.autoClosingDelete": "always",
+  "editor.inlineSuggest.enabled": true,
+  "editor.colorDecorators": true,
+  "editor.detectIndentation": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.smoothScrolling": true,
+  "editor.inlayHints.padding": true,
+  "editor.rulers": [
+    {
+      "column": 72,
+      "color": "#1e751633"
+    },
+    {
+      "column": 80,
+      "color": "#c2790b99"
+    },
+    {
+      "column": 132,
+      "color": "#a10d2d99"
+    }
+  ],
+  "editor.autoClosingOvertype": "always",
+  "editor.defaultColorDecorators": true,
+  "editor.renderFinalNewline": "on",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.unicodeHighlight.includeComments": true,
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "editor.unusualLineTerminators": "auto",
+  "editor.wrappingIndent": "indent",
+  "editor.wrappingStrategy": "advanced",
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.find.autoFindInSelection": "always",
+  "diffEditor.diffAlgorithm": "advanced",
+  "diffEditor.codeLens": true,
+  "diffEditor.wordWrap": "on",
+  "editor.minimap.autohide": true,
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.tabCompletion": "on",
+  "editor.find.addExtraSpaceOnTop": true,
+  "editor.comments.insertSpace": true,
+  "editor.autoIndent": "full",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeLensFontFamily": "Maple Mono", //"\"JetBrains Mono\"",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.foldingStrategy": "indentation",
+  // "editor.fontFamily": "\"Comic Code\", \"JetBrains Mono\", \"SF Mono\", \"IBMPlexMono\", \"Fira Code\", \"Dank Mono\", monospace",
+  // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontWeight": 1000,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+  "editor.guides.bracketPairs": "active",
+  "editor.hideCursorInOverviewRuler": true,
+  "explorer.fileNesting.expand": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.incrementalNaming": "smart",
+  "explorer.compactFolders": true,
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": true,
+
+  // ##################### explorer #####################################
+
+  // ##################### extension #####################################
+  "liveServer.settings.CustomBrowser": "firefox",
+
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "emptyIndent.removeIndent": true,
+  "emptyIndent.highlightIndent": true,
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+  "emptyIndent.exclude": [".md"],
+  "prettier.bracketSameLine": true,
+  "prettier.enableDebugLogs": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // with txtsyntax configuration
+  "txtsyntax.associations": [".tmp", ".cnf", ".log", ".eds", ".aaa"],
+
+  "trailing-spaces.highlightCurrentLine": false,
+  "trailing-spaces.includeEmptyLines": false,
+  "trailing-spaces.deleteModifiedLinesOnly": true,
+  "trailing-spaces.trimOnSave": true,
+  "trailing-spaces.saveAfterTrim": true,
+  "trailing-spaces.liveMatching": false,
+  "trailing-spaces.backgroundColor": "rgba(255,0,0,0.3)",
+  "trailing-spaces.borderColor": "rgba(255,100,100,0.15)",
+  "trailing-spaces.regexp": "[\\s]+",
+  "remove-empty-lines.allowedNumberOfEmptyLines": 0, // allow 0 in all files
+
+  // ##################### extension #####################################
+
+  // ##################### files #####################################
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.refactoring.autoSave": true,
+  "files.trimFinalNewlines": true,
+  "files.enableTrash": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/__MACOSX": true
+  },
+  "files.associations": {
+    "*.atml": "html",
+    "*.fish": "powershell",
+    "*.js": "javascript",
+    "*.mdx": "markdown",
+    ".babelrc": "json",
+    ".huskyrc": "json",
+    "*.tmp": "txt",
+    "*.cnf": "txt",
+    "*.log": "txt",
+    "*.eds": "txt",
+    "*.aaa": "txt"
+  },
+  "files.simpleDialog.enable": true,
+  "files.trimTrailingWhitespace": true,
+
+  // ##################### files #####################################
+
+  // ##################### terminal #####################################
+  "terminal.external.linuxExec": "terminator",
+  "terminal.integrated.defaultProfile.linux": "bash",
+
+  "terminal.integrated.fontSize": 15,
+  "terminal.explorerKind": "both",
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorWidth": 5,
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.shellIntegration.suggestEnabled": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+
+  // ##################### terminal #####################################
+
+  // ##################### languages #####################################
+
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "svipas.prettier-plus"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "on",
+      "strings": "on"
+    }
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoIndent": "advanced",
+    "editor.inlayHints.enabled": "on"
+  },
+  //c,c++
+  "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+  "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+  "C_Cpp.intelliSenseEngineFallback": "enabled",
+  "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+  "C_Cpp.vcFormat.indent.braces": true,
+  "C_Cpp.vcFormat.indent.caseLabels": true,
+  "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+  "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+  "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+  "C_Cpp.vcFormat.space.beforeComma": true,
+  "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+  "C_Cpp.vcFormat.wrap.preserveBlocks": "never",
+  "C_Cpp.doxygen.generatedStyle": "/**",
+
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.simplifyStructuredComments": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.codeAnalysis.clangTidy.codeAction.formatFixes": true,
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": true,
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.enabled": true,
+
+  "Lua.codeLens.enable": true,
+  "Lua.completion.callSnippet": "Both",
+  "Lua.completion.keywordSnippet": "Both",
+  "Lua.hint.arrayIndex": "Enable",
+  "Lua.hint.setType": true,
+  "Lua.hint.enable": true,
+  "Lua.semantic.keyword": true,
+  "luahelper.base.formatErrShow": true,
+  "svg.completion.emmet": true,
+  "txtsyntax.enableHighlightLine": true,
+  "txtsyntax.showHighlightSidebar": true,
+  // ##################### languages #####################################
+
+  // ##################### other settings #####################################
+
+  "vsicons.dontShowNewVersionMessage": true,
+  "cmake.configureOnOpen": true,
+  "vscode-blur-linux.blur": true,
+  "vscode-blur-linux.opacity": 0,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "search.defaultViewMode": "tree",
+  "debug.confirmOnExit": "always",
+  "debug.inlineValues": "on",
+  "debug.terminal.clearBeforeReusing": true,
+  "debug.toolBarLocation": "docked",
+  "extensions.ignoreRecommendations": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.lineNumbers": "on",
+  "catppuccin.extraBordersEnabled": true,
+  "emmet.showSuggestionsAsSnippets": true
+  // ##################### other settings #####################################
+}

@@ -58,7 +58,7 @@
 
 
 ## Thank helmuthdu
-If you like my work, please consider a small Paypal donation at helmuthdu@gmail.com :)
+If you like his work, please consider a small Paypal donation at helmuthdu@gmail.com :)
 
 ## License :scroll:
 This project is licenced under the GNU General Public License V3. For more information, see the `LICENSE` file or visit https://www.gnu.org/licenses/gpl-3.0.en.html.
